@@ -6,13 +6,13 @@ Python / Cython implementation of Huang's thresholding method. For more details,
     
 # Setup
 
-To use, please run the compilation step (setup.py) using the following command:  
+To use, run the following command in a terminal:  
 ```bash
 python setup.py build_ext --inplace
 ```
 
-Please refer to test.py for a use case.
+Please refer to [test.py](https://github.com/faisaljayousi/huang_thresholding/blob/main/setup.py) for a use case.
 
 # Bugs?
 
-If you encounter a bug in the code, kindly let me know @fjayousi90[at]gmail.com
+If you encounter a bug in the code, kindly let me know @fjayousi90[at]gmail[dot]com
