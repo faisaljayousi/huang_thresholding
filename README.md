@@ -11,7 +11,7 @@ To use, run the following command in a terminal:
 python setup.py build_ext --inplace
 ```
 
-Please refer to [test.py](https://github.com/faisaljayousi/huang_thresholding/blob/main/setup.py) for a use case.
+Please refer to [test.py](https://github.com/faisaljayousi/huang_thresholding/blob/main/test.py) for a use case.
 
 # Bugs?
 
