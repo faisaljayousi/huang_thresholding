@@ -2,7 +2,7 @@ from setuptools import setup, Extension
 from Cython.Build import cythonize
 import numpy
 
-ext_modules = [Extension("loops", ["src/loops.pyx"],
+ext_modules = [Extension("loops", ["huang/loops.pyx"],
                          include_dirs=[numpy.get_include()])]
 
 setup(

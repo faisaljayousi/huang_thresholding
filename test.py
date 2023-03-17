@@ -4,7 +4,7 @@ Test script to test the huang_thresholding function.
 
 import numpy as np
 import matplotlib.pyplot as plt
-from huang import huang_thresholding
+from huang.thresholding import huang_thresholding
 
 # -----------------------------------------------------------------------------------
 
