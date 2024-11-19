@@ -11,7 +11,7 @@ To use, run the following command in a terminal:
 pip install https://github.com/faisaljayousi/huang_thresholding.git
 ```
 
-Please refer to [test.py](https://github.com/faisaljayousi/huang_thresholding/blob/main/test.py) for a use case.
+Please refer to [test.py](https://github.com/faisaljayousi/huang_thresholding/blob/main/tests/test.py) for a use case.
 
 # Bugs?
 
