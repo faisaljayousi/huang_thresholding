@@ -1,6 +1,5 @@
 import numpy as np
-from loops import (_mu_loop,
-                   _entropy_loop)
+from huang.loops import (_mu_loop, _entropy_loop)
 
 
 def huang_thresholding(image: np.ndarray) -> int:

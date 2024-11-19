@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64", "wheel", "setuptools_scm>=8", "cython", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "huang_thresholding"
+version = "0.0.0"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Faisal Jayousi", email = "fjayousi90@gmail.com"}]
+maintainers = [{name = "Faisal Jayousi", email = "fjayousi90@gmail.com"}]
+license = {file = "LICENSE"}
+dependencies = [
+    "numpy>=1.25.0",
+    "opencv-python>=4.9.0.80",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*"]

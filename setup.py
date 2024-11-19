@@ -15,7 +15,5 @@ ext_modules = [
 ]
 
 setup(
-    name="huang",
-    ext_modules=cythonize(ext_modules, language_level="3"),
-    install_requires=["numpy"],
+    ext_modules=cythonize(ext_modules),
 )
