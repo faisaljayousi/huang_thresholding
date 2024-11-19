@@ -8,7 +8,7 @@ ext_path = Path("huang")
 
 ext_modules = [
     Extension(
-        "loops",
+        "huang.loops",
         [str(ext_path / "loops.pyx")],
         include_dirs=[numpy.get_include()],
     )
@@ -16,6 +16,6 @@ ext_modules = [
 
 setup(
     name="huang",
-    ext_modules=cythonize(ext_modules),
-    include_dirs=[numpy.get_include()],
+    ext_modules=cythonize(ext_modules, language_level="3"),
+    install_requires=["numpy"],
 )

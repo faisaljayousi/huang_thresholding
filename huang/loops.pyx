@@ -9,7 +9,7 @@ cimport numpy as cnp
 from libc.math cimport fabs
 from libc.math cimport log as clog
 
-from fused_numerics cimport np_anyint as any_int
+from huang.fused_numerics cimport np_anyint as any_int
 
 cnp.import_array()
 

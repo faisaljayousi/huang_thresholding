@@ -1,4 +1,8 @@
 build/
 *.egg-info/
-__pycache__
+__pycache__/
 huang/loops.c
+dist/
+*.pyc
+*.pyo
+*.so
