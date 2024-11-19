@@ -4,9 +4,11 @@ from loops import (_mu_loop,
 
 
 def huang_thresholding(image: np.ndarray) -> int:
-    r""" Computes and returns threshold and corresponding entropy using Huang's fuzzy thresholding method. [1]
+    """ Computes and returns threshold and corresponding entropy using Huang's
+    fuzzy thresholding method. [1]
 
-        [1] Huang L.-K. and Wang M.-J.J. (1995) "Image Thresholding by Minimizing the Measures of Fuzziness"
+    [1] Huang L.-K. and Wang M.-J.J. (1995) "Image Thresholding by Minimizing
+    the Measures of Fuzziness"
     """
 
     if np.issubdtype(image.dtype, np.floating):
@@ -28,6 +30,6 @@ def huang_thresholding(image: np.ndarray) -> int:
 
     # Compute entropy
     threshold, min_entropy = _entropy_loop(
-        data, 1 / length, mu0, mu1, np.float('inf'), -1)
+        data, 1 / length, mu0, mu1, float('inf'), -1)
 
     return threshold, min_entropy
