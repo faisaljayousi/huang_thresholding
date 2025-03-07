@@ -8,7 +8,7 @@ Python / Cython implementation of Huang's thresholding method. For more details,
 
 To use, run the following command in a terminal:
 ```bash
-pip install https://github.com/faisaljayousi/huang_thresholding.git
+pip install git+https://github.com/faisaljayousi/huang_thresholding.git
 ```
 
 Please refer to [test.py](https://github.com/faisaljayousi/huang_thresholding/blob/main/tests/test.py) for a use case.
